@@ -16,7 +16,7 @@ export default function Template({
         />
       </div>
       <hr/>
-      <Link to="/page-2/">Go to homepage</Link>
+      <Link to="/">Go to homepage</Link>
     </div>
   );
 }
