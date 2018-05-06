@@ -6,6 +6,8 @@ title: "Richard Stallman"
 
 ![stallman](./images/stallman.jpg)
 
+Richard Matthew Stallman (New York, 16 marzo 1953) è un programmatore, informatico e attivista statunitense. È uno dei principali esponenti del movimento del software libero, e si è sempre battuto perchè venissero rispettati diritti alla libertà e alla privacy nel mondo dell'informativa. Da un messaggio inviato alla lista discussioni@softwarelibero.it, 5 marzo 2010:
+
 I computer [e la maggior parte dei telefoni cellulari] sono il sogno di Stalin: sono strumenti perfetti per sorvegliare, poiché possono archiviare ogni tipo di attività degli utenti. [...] La maggior parte dei telefoni cellulari trasmette la loro posizione, calcolata grazie a sistemi GPS, su richiesta da parte di sistemi remoti. La compagnia telefonica accumula un'enorme lista di luoghi dove gli utenti sono stati. Un parlamentare tedesco del partito dei Verdi ha chiesto alla compagnia telefonica di fornirgli i dati a proposito dei luoghi dove lui stesso era stato. È stato costretto a citare la compagnia, ricorrere alla giustizia per ottenere queste informazioni. E quando le ha ottenute, ha ricevuto 44.000 posizioni geografiche per un periodo di sei mesi. Si tratta di più di duecento informazioni al giorno! Ciò significa che qualcuno potrebbe creare un'ottima schedatura delle attività di una persona, semplicemente osservando questi dati.
 
 ![opensource](./images/opensource.jpg)
