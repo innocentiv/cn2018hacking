@@ -8,6 +8,8 @@
     "gatsby-cli": "^1.1.51",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-react-helmet": "^2.0.10",
+    "gatsby-plugin-sharp": "^1.6.44",
+    "gatsby-remark-images": "^1.5.63",
     "gatsby-source-filesystem": "^1.5.35",
     "gatsby-transformer-remark": "^1.7.40",
     "react-helmet": "^5.2.0"
