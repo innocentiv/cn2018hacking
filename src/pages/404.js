@@ -1,11 +1,37 @@
 import React from 'react'
+import Link from 'gatsby-link'
 
-const NotFoundPage = () => (
-  <div>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-    <Link to="/page-2/">Go to homepage</Link>
-  </div>
-)
+class NotFoundPage extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      inputValue: ''
+    };
+  }
+
+  render() {
+    return (
+      <div>
+        <h1>404 NOT FOUND</h1>
+        <p>Il codice non era corretto... peccato</p>
+        <form onSubmit={(evt) => {
+          evt.preventDefault();
+          window.location.href = '/' + this.state.inputValue;
+        }}>
+          <input type="text" placeholder="Inserisci qui il codice" value={this.state.inputValue} onChange={evt => this.updateInputValue(evt)} />
+          <button type="submit">Hack Solution</button>
+        </form>
+        <Link to="/">Go to homepage</Link>
+
+      </div>
+    );
+  }
+
+  updateInputValue = (evt) => {
+    this.setState({
+      inputValue: evt.target.value
+    });
+  }
+}
 
 export default NotFoundPage
